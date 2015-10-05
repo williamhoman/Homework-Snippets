@@ -1,0 +1,94 @@
+body,html{
+  height: 100%;
+  margin: 0;
+}
+.landscape{
+  width:100%;
+  height:100%;
+    background-image: url(images/hilly-landscape.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+   
+}
+
+.train {
+    position:absolute;
+    bottom: 54px;
+    width: 100%;
+    text-align: center;
+}
+
+.train div{
+    display: inline-block;
+    margin-right: -15px;
+
+}
+
+.locomotive {
+   
+    display: inline-block;
+    
+}
+
+.track {
+    background-image: url(images/train-track-pattern.png);
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .train-car {
+        width: 220px;
+        margin-right: -8px;
+        
+
+    }
+    
+    .locomotive {
+        width: 280px; 
+    }
+    
+    .train img {
+        width: 100%;
+            }
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+    .train-car {
+        width: 180px;
+        margin-right: -8px;
+        
+    }
+    
+    .locomotive {
+        width: 230px; 
+    }
+    .train img {
+        width: 100%;
+            }
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+    .train-car {
+        width: 120px;
+        margin-right: -20px;
+        
+    }
+    
+    .locomotive {
+        width: 150px; 
+    }
+    .train img {
+        width: 100%;
+            }
+    
+}
+
